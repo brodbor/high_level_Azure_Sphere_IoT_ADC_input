@@ -1,0 +1,15 @@
+{
+  "SchemaVersion": 1,
+  "Name": "hlADCUltrasonic",
+  "ComponentId": "19d6caf8-3593-4ae6-b0f1-b13b8ee3be47",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [ "--ConnectionType", "DPS", "--ScopeID", "xxxx" ],
+  "Capabilities": {
+    "AllowedConnections": [ "global.azure-devices-provisioning.net", "xxxxx.azure-devices.net"],
+    "Adc": [ "$MT3620_ADC_CONTROLLER0" ],
+    "AllowedApplicationConnections": [],
+    "DeviceAuthentication": "221d2bf5-23b6-43d6-9ce0-9fb314a9af0d"
+  },
+  "ApplicationType": "Default",
+  "WifiConfig": true
+}
