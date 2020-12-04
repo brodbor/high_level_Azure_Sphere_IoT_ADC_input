@@ -3,6 +3,8 @@
 In this tutorial, we will build high-level AzureSphere App that connects Ultrasonic sensor and sends telemetry data to Azure IoT Hub. We will use Device Provisioning Service method to Authenticate Device with IoT Hub and we will use analog-to-digital converter
 (ADC) to collect telemetry from the sensor
 
+Please check this (blog)[https://borisbrodsky.com/sitecore/practical-application-of-azure-sphere-with-sitecore-experience-commerce/] for practical application of Azure Sphere in Commerce.
+
 ## Hardware Used
 1. Seeed [MT3620](https://www.seeedstudio.com/Azure-Sphere-MT3620-Development-Kit-US-Version-p-3052.html) Azure Sphere Board
 2. Sonar Sensor-[LV-MaxSonar-EZ1 Ultrasonic Range Finder](https://www.amazon.com/Maxbotix-MB1010-LV-MaxSonar-EZ1-Ultrasonic-Finder/dp/B00A7YGVJI)
